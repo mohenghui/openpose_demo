@@ -1,0 +1,4 @@
+cd E:\openpose\tf-pose-estimation-master
+python run.py --model=mobilenet_thin
+python run_video.py --model=mobilenet_thin
+python run_webcam.py --model=mobilenet_thin
